@@ -11,3 +11,6 @@
 -Add User Story
 
 -Add Acceptance Criteria
+
+## Screenshot
+![Screenshot of the Project]{Link here}
