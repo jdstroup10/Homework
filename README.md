@@ -5,3 +5,7 @@
 - Add context for why this repo exists
 
 -Include instalation and startup instructions
+
+-Add User Story
+
+-Add Acceptance Criteria
