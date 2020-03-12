@@ -4,8 +4,8 @@
     margin: 0;
 }
 /* Combine classes!*/
-/*Questions for class: How to combine classes?
-Why doesnt the search engine optimization link function like the other 2 links?*/
+/*Questions for class: How to combine classes? 
+Why doesn't the search engine optimization link function like the other 2 links?*/
 
 body {
     background-color: #d9dcd6;
@@ -92,11 +92,12 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead , .benefit-brand , .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*
+ I grouped these classes together because they all shared the same margin-bottom and color properties
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -104,14 +105,16 @@ p {
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
-}
+    color: #ffffff; 
+} */
 
-.benefit-lead h3 {
+.benefit-lead h3 , .benefit-brand h3 , .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*
+I grouped these classes together because they shared the same margin-bottom and text alignment properties.
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -120,27 +123,28 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+.benefit-lead img , .benefit-brand img , .benefit-cost img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*
+I grouped these classes together because they shared the same display, margin, and max width properties
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} 
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.search-engine-optimization {
+.search-engine-optimization , .online-reputation-management , .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -148,7 +152,8 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*
+I grouped these classes together because they shared the same css properties
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -166,25 +171,25 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* Tried to combine classes of the above by creating one class called .products. It messed up the page*/
+ Tried to combine classes of the above by creating one class called .products. It messed up the page. Solved. The issue was i was not adding "." to identify the class*/
 
-.search-engine-optimization img {
+.search-engine-optimization img , .online-reputation-management img , .social-media-marketing img {
     max-height: 200px;
 }
-
+/* I ombined the classes here because they shared the same max-height property
 .online-reputation-management img {
     max-height: 200px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+.search-engine-optimization h2 , .online-reputation-management h2 , .social-media-marketing h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* I grouped these classes together because they share the same css properties.
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -193,7 +198,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
