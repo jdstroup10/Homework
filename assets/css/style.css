@@ -4,6 +4,8 @@
     margin: 0;
 }
 /* Combine classes!*/
+/*Questions for class: How to combine classes?
+Why doesnt the search engine optimization link function like the other 2 links?*/
 
 body {
     background-color: #d9dcd6;
@@ -12,6 +14,7 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Font-Family provides greater accessability for users who may not be able to load every font */
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -33,9 +36,10 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/*.header div ul {
     list-style-type: none;
 }
+There does not seem to be any change in style or functionality when this line is commented out. Does it need to be here?*/
 
 .header div ul li {
     display: inline-block;
@@ -45,6 +49,7 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+    
 }
 
 p {
@@ -161,6 +166,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* Tried to combine classes of the above by creating one class called .products. It messed up the page*/
 
 .search-engine-optimization img {
     max-height: 200px;
