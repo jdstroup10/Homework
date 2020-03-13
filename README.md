@@ -4,7 +4,7 @@
 -  This was a homework assignment where we refactored a premade website in order to make it more accessable to users.
 
 ## Notes:
-HTML: In the HTML file the primary changes I made to the code involved adding alts to the href and img elements. The purpose of alts is to make the website more accessible to users in the event the images do not load for them. I also added a title text to the main background image that will appear when the user hovers their mouse over the image. Also, I removed a few of the <div> elements and replaced them with <nav> and <section> to make the sections more specific.
+HTML: In the HTML file the primary changes I made to the code involved adding alts to the href and img elements. The purpose of alts is to make the website more accessible to users in the event the images do not load for them. I also added a title text to the main background image that will appear when the user hovers their mouse over the image. Also, I removed a few of the div elements and replaced them with nav and section to make the sections more specific.
   
 CSS: In the CSS file I was able group many classes together that shared the same css properties such as color and margin. Grouping the classes enabled me to comment out a lot of the code and make it look a lot cleaner. I was also able to remove a piece of code that only had list-style-type as none. Since the default is already "none", I was ble to comment this code out.
 
