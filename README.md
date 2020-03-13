@@ -1,5 +1,5 @@
 # Homework 1 for UT Boot Camp (Marketing SEO Refactor)
->Refactororing a marketing page to make it SEO friendly 
+>Refactoring a marketing page to make it SEO friendly 
 
 -  This was a homework assignment where we refactored a premade website in order to make it more accessable to users.
 
