@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<!--Remove divs, replace with section-->
+<!--Remove divs, replace with section,nav,article-->
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <div class="header">
+    <nav class="header"> <!--Here I changed div to nav, as this section contains links to assist the user with navigation-->
         
-        <h1>Hori<span class="seo">seo</span>n</h1> <!--Clean up this line/ Removed <span>-->
+        <h1>Hori<span class="seo">seo</span>n</h1> 
         
         <div>
             <ul>
@@ -30,7 +30,7 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </nav>
     <div class="hero" title="Productive Meeting"></div>
         <!--Adding "title="Productive Meeting"" here. If image does not load, user can hover mouse over image for a description-->
         
@@ -63,7 +63,7 @@
             </p>
         </div>
     </div>
-    <div class="benefits">
+    <section class="benefits"> <!--I replaced div with section here to assign a more specific label for these titles and images-->
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="Lead Generation"/>
@@ -91,7 +91,7 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
+    </section>
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
