@@ -1,12 +1,11 @@
 # Homework 1 for UT Boot Camp (Marketing SEO Refactor)
->Refactororing a marketing page to make it SEO friendly (tagline)
+>Refactororing a marketing page to make it SEO friendly 
 
 - This was a homework assignment where we refactored a premade website in order to make it more accessable to users.
-- Add context for why this repo exists
--Notes on how I completed the assignment
--Add image of the website: Just take screenshot, put in homework folder, then git add and git commit , git push
 
--Include instalation and startup instructions
+## Notes:
+HTML: In the HTML file the primary changes I made to the code involved adding alts to the href and img elements. The purpose of alts is to make the website more accessible to users in the event the images do not load for them. I also added a title text to the main background image that will appear when the user hovers their mouse over the image. 
+
 
 ## User Story
 
